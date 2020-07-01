@@ -47,6 +47,9 @@
             this.connectionSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEADMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.branchingexpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.branch1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.branch2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +65,7 @@
             // 
             // status_textbox
             // 
-            this.status_textbox.Location = new System.Drawing.Point(141, 56);
+            this.status_textbox.Location = new System.Drawing.Point(144, 41);
             this.status_textbox.Name = "status_textbox";
             this.status_textbox.Size = new System.Drawing.Size(212, 20);
             this.status_textbox.TabIndex = 1;
@@ -126,12 +129,14 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.parametersToolStripMenuItem,
             this.connectionsToolStripMenuItem,
-            this.helpToolStripMenuItem});
+            this.helpToolStripMenuItem,
+            this.branchingexpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // parametersToolStripMenuItem
             // 
@@ -206,6 +211,27 @@
             this.rEADMEToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
             this.rEADMEToolStripMenuItem.Text = "README";
             // 
+            // branchingexpToolStripMenuItem
+            // 
+            this.branchingexpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.branch1ToolStripMenuItem,
+            this.branch2ToolStripMenuItem});
+            this.branchingexpToolStripMenuItem.Name = "branchingexpToolStripMenuItem";
+            this.branchingexpToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
+            this.branchingexpToolStripMenuItem.Text = "Branching-exp";
+            // 
+            // branch1ToolStripMenuItem
+            // 
+            this.branch1ToolStripMenuItem.Name = "branch1ToolStripMenuItem";
+            this.branch1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.branch1ToolStripMenuItem.Text = "branch1";
+            // 
+            // branch2ToolStripMenuItem
+            // 
+            this.branch2ToolStripMenuItem.Name = "branch2ToolStripMenuItem";
+            this.branch2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.branch2ToolStripMenuItem.Text = "branch2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -252,6 +278,9 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rEADMEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addPLCParametersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem branchingexpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem branch1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem branch2ToolStripMenuItem;
     }
 }
 
