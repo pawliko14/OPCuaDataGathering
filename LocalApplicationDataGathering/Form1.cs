@@ -32,7 +32,7 @@ namespace LocalApplicationDataGathering
             }
         }
         private System.Windows.Forms.Timer timer1;
-        private int counter = 30; // changes only to tests
+        private int counter = 300; // changes only to tests
 
         
 
@@ -226,6 +226,11 @@ namespace LocalApplicationDataGathering
         {
             Parameters_PLC_NC_form PLC_NC_form = new Parameters_PLC_NC_form();
             PLC_NC_form.ShowDialog();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
 
         //////////////////////////////////
