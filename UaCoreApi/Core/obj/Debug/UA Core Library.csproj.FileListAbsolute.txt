@@ -1,0 +1,24 @@
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.dll
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Debug\UA Core Library.csprojAssemblyReference.cache
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Debug\UA Core Library.csproj.CoreCompileInputs.cache
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.dll
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.pdb
+O:\OPC_UA\OPC_UA_client_c#_example\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.dll
+O:\OPC_UA\OPC_UA_client_c#_example\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.pdb
+O:\OPC_UA\OPC_UA_client_c#_example\UaCoreApi\Core\obj\Debug\UA Core Library.csprojAssemblyReference.cache
+O:\OPC_UA\OPC_UA_client_c#_example\UaCoreApi\Core\obj\Debug\UA Core Library.csproj.CoreCompileInputs.cache
+O:\OPC_UA\OPC_UA_client_c#_example\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.dll
+O:\OPC_UA\OPC_UA_client_c#_example\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\source\repos\OPC_UA_app\UaCoreApi\Core\obj\Debug\UA Core Library.csprojAssemblyReference.cache
+C:\Users\el08\source\repos\OPC_UA_app\UaCoreApi\Core\obj\Debug\UA Core Library.csproj.CoreCompileInputs.cache
+C:\Users\el08\source\repos\OPC_UA_app\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.dll
+C:\Users\el08\source\repos\OPC_UA_app\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\source\repos\OPC_UA_app\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.dll
+C:\Users\el08\source\repos\OPC_UA_app\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.dll
+C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\UA Core Library.csproj.CoreCompileInputs.cache
+C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.dll
+C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\UA Core Library.csprojAssemblyReference.cache

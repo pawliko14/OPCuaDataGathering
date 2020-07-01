@@ -1,0 +1,16 @@
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\LocalApplicationDataGathering.exe.config
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\LocalApplicationDataGathering.exe
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\LocalApplicationDataGathering.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\Opc.Ua.Client.dll
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\Opc.Ua.Core.dll
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\Opc.Ua.Client.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\bin\Debug\Opc.Ua.Core.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.csprojAssemblyReference.cache
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.Properties.Resources.resources
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.csproj.GenerateResource.cache
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.csproj.CoreCompileInputs.cache
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.csproj.CopyComplete
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.exe
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.pdb
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.Form1.resources
+C:\Users\el08\source\repos\LocalApplicationDataGathering\LocalApplicationDataGathering\obj\Debug\LocalApplicationDataGathering.Parameters_DataGathering_form.resources

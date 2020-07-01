@@ -1,0 +1,6 @@
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\bin\Release\Opc.Ua.Core.dll
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\bin\Release\Opc.Ua.Core.pdb
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Release\UA Core Library.csprojAssemblyReference.cache
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Release\UA Core Library.csproj.CoreCompileInputs.cache
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Release\Opc.Ua.Core.dll
+C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaCoreApi\Core\obj\Release\Opc.Ua.Core.pdb
