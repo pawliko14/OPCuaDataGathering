@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using LocalApplicationDataGathering.Pinging;
+using LocalApplicationDataGathering.App_start;
+using Npgsql;
 
 namespace LocalApplicationDataGathering
 {
@@ -34,7 +36,11 @@ namespace LocalApplicationDataGathering
         private System.Windows.Forms.Timer timer1;
         private int counter = 300; // changes only to tests
 
-        
+        private bool database_connection = false;
+
+        // TEMPORARY TO DELETE LATER 
+        private string value_to_READ = null;
+
 
         public TextBox GetTextbox()
         {
@@ -60,7 +66,8 @@ namespace LocalApplicationDataGathering
                 
                    status_textbox.Text = results[0];
 
-            
+                value_to_READ = results[0];
+
 
             }
             else if (OpcUastartup.Instance.GetStatus() == false)
@@ -231,6 +238,56 @@ namespace LocalApplicationDataGathering
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+
+            PostgresConnection databaseConnection = new PostgresConnection();
+
+            databaseConnection.connection().Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand("SELECT * FROM users", databaseConnection.connection());
+              NpgsqlDataReader dr = cmd.ExecuteReader();
+
+                if (dr.Read())
+                {
+                    database_connection = true;
+                    Console.WriteLine("connection established");
+
+                    // temporary to delete, pushing example data to sql :
+
+                   
+
+                }
+                if (database_connection == false)
+                {
+                    Console.WriteLine("data does not exist");
+                }
+                else
+                {
+                    Console.WriteLine("problem with connections");
+                }
+
+                dr.Close();
+
+                NpgsqlCommand command = new NpgsqlCommand("insert into nc_data (nc_var ,nc_value, measure_time, measure_date, status) values ('selectedWorkPProg[u1,1]','" + value_to_READ + "', '12:30:54', '2020-07-10', true)", databaseConnection.connection());
+                NpgsqlDataReader datareader = command.ExecuteReader();
+
+            databaseConnection.connection().Close();
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+      
+            
         }
 
         //////////////////////////////////

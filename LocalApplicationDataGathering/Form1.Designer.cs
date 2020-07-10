@@ -50,6 +50,9 @@
             this.branchingexpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.branch1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.branch2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button3 = new System.Windows.Forms.Button();
+            this.databaseConnection = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -223,20 +226,53 @@
             // branch1ToolStripMenuItem
             // 
             this.branch1ToolStripMenuItem.Name = "branch1ToolStripMenuItem";
-            this.branch1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.branch1ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.branch1ToolStripMenuItem.Text = "branch1";
             // 
             // branch2ToolStripMenuItem
             // 
             this.branch2ToolStripMenuItem.Name = "branch2ToolStripMenuItem";
-            this.branch2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.branch2ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.branch2ToolStripMenuItem.Text = "branch2";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(695, 406);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // databaseConnection
+            // 
+            this.databaseConnection.Location = new System.Drawing.Point(329, 406);
+            this.databaseConnection.Name = "databaseConnection";
+            this.databaseConnection.Size = new System.Drawing.Size(148, 23);
+            this.databaseConnection.TabIndex = 11;
+            this.databaseConnection.Text = "databaseConnection";
+            this.databaseConnection.UseVisualStyleBackColor = true;
+            this.databaseConnection.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(505, 406);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(112, 23);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "push_data_to_database";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.databaseConnection);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.connection_status_textbox);
             this.Controls.Add(this.Ping_status);
@@ -281,6 +317,9 @@
         private System.Windows.Forms.ToolStripMenuItem branchingexpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem branch1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem branch2ToolStripMenuItem;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button databaseConnection;
+        private System.Windows.Forms.Button button4;
     }
 }
 
