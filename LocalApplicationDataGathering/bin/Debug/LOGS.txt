@@ -1,300 +1,10 @@
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-Address: 192.168.90.39
-RoundTrip time: 26
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 6
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 11
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state o OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 6
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 4
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
 Address: 192.168.90.39
 RoundTrip time: 3
 Time to live: 63
@@ -303,7 +13,17 @@ Buffer size: 32
 current state of OPC connectionTrue
 connection established
 problem with connections
+connection established
+problem with connections
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
 SImple change to test Branching
+connection established
+problem with connections
 Address: 192.168.90.39
 RoundTrip time: 5
 Time to live: 63
@@ -314,233 +34,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 9
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 7
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection estconnectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 13
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with conneections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -567,32 +61,13 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
+RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue
 connection established
 problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
 Address: 192.168.90.39
 RoundTrip time: 3
 Time to live: 63
@@ -612,7 +87,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
+RoundTrip time: 8
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -621,187 +96,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
+RoundTrip time: 10
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -837,7 +132,24 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 4
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 9
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+Address: 192.168.90.39
+RoundTrip time: 109
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -855,7 +167,79 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 49
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTurrent state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 6
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -882,7 +266,169 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 8
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 15
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 7
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 9
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 8
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
 RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -909,7 +455,43 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
 RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -945,6 +527,15 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
 RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
@@ -955,6 +546,149 @@ problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
 RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 12
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 7
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+Address: 192.168.90.39
+RoundTrip time: 10
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 5
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -981,15 +715,6 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 4
 Time to live: 63
 Don't fragment: False
@@ -999,7 +724,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 4
+RoundTrip time: 15
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1017,7 +742,34 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 9
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1062,7 +814,133 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 20
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 5
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1098,177 +976,6 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 27
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 5
 Time to live: 63
 Don't fragment: False
@@ -1296,15 +1003,6 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 10
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
@@ -1314,25 +1012,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 6
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1368,6 +1048,33 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 7
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
 RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
@@ -1377,7 +1084,43 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 6
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1413,33 +1156,6 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 1
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
@@ -1458,25 +1174,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 35
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1512,7 +1210,340 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
 RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 6
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 21
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 7
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1557,106 +1588,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 33
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 5
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 4
+RoundTrip time: 16
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1674,42 +1606,6 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 6
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
 RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
@@ -1728,7 +1624,15 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 2
+RoundTrip time: 1005
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+Address: 192.168.90.39
+RoundTrip time: 10
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1738,24 +1642,6 @@ problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
 RoundTrip time: 2
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue
-connection established
-problem with connections
-SImple change to test Branching
-Address: 192.168.90.39
-RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1773,7 +1659,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 9
+RoundTrip time: 11
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1782,7 +1668,106 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 3
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 1
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1809,7 +1794,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 3
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1818,7 +1803,7 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 3
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
@@ -1827,12 +1812,28 @@ connection established
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39
-RoundTrip time: 6
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue
 connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue
+connection established
+problem with connections
+SImple change to test Branching
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer tablished
 problem with connections
 SImple change to test Branching
 Address: 192.168.90.39

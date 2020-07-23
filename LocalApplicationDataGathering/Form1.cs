@@ -25,6 +25,9 @@ namespace LocalApplicationDataGathering
         private bool database_connection = false;
         private OpcVairables opcVariables;
 
+        private DateTime now = DateTime.Now;
+        private string datetime = DateTime.Today.ToString();
+
         // TEMPORARY TO DELETE LATER 
         private string value_to_READ = null;
 
@@ -146,9 +149,10 @@ namespace LocalApplicationDataGathering
 
         private  void timer1_Tick(object sender, EventArgs e)
         {
-          
-           
-            counter--;
+            now = DateTime.Now;
+            datetime = DateTime.Today.ToString();
+
+        counter--;
             if (counter == 0)
             {
                 //timer1.Stop();
@@ -286,11 +290,7 @@ namespace LocalApplicationDataGathering
             NpgsqlDataReader datareader = command.ExecuteReader();
             datareader.Close();
 
-            DateTime now = DateTime.Now;
-            string datetime = DateTime.Today.ToString();
-
-
-         
+          
 
             foreach (var pair in opcVariables.getMap())
             {
@@ -304,10 +304,52 @@ namespace LocalApplicationDataGathering
 
         private void button4_Click(object sender, EventArgs e)
         {
+            List<string> list_of_var_indatabase = new List<string>();
 
             // empty, previously save to database, migrated to another function
-          
+            PostgresConnection databaseConnection = new PostgresConnection();
 
+            databaseConnection.connection().Open();
+
+            NpgsqlCommand cmd = new NpgsqlCommand("SELECT plc_var FROM plc_data_variables pdv order by id_var ", databaseConnection.connection());
+            NpgsqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+                string value = rdr.GetString(0);
+                list_of_var_indatabase.Add(value);
+            }
+            rdr.Close();
+
+
+            string temp = "IB2";
+
+            if (list_of_var_indatabase.Contains(temp))
+            {
+                MessageBox.Show("Record exists in database");
+
+            }
+            else
+            {
+                MessageBox.Show("Record doest not exist in database, record will be pushed to database");
+
+                pushElemToDatabase(temp, databaseConnection);
+
+                opcVariables.addElemtoResults("/Plc/"+ temp, temp);
+
+                MessageBox.Show("Record pushed successfully");
+                MessageBox.Show(opcVariables.getMap().Keys.Last() + ", " + opcVariables.getMap().Values.Last());
+
+
+
+            }
+        }
+
+        private void pushElemToDatabase(string temp, PostgresConnection databaseConnection)
+        {
+            NpgsqlCommand cmd = new NpgsqlCommand("insert into plc_data_variables (plc_var ,plc_var_meaning ,created_on ,last_changed_date ,status ,plc_var_path ,value ,last_changed_time ) values ('"+ temp + "','"+ temp + "','2020-07-21','"+ datetime + "',true,'/plc/','true','15:20:20') ", databaseConnection.connection());
+            NpgsqlDataReader rdr = cmd.ExecuteReader();
+            rdr.Close();
         }
 
         private void button4_Click_1(object sender, EventArgs e)

@@ -24,6 +24,19 @@ namespace LocalApplicationDataGathering.Opc
             return this.map;
         }
 
+        
+        public void addElemtoResults(string fullName_and_chanell,string variable)
+        {
+            string value_to_save = new NodeId(fullName_and_chanell, 2).ToString();
+            nodesToRead.Add(value_to_save);
+            results = OpcUastartup.Instance.get_m_server().ReadValues(nodesToRead);
+
+            // adding to map
+            map.Add(variable, results.Last());
+
+
+        }
+
         public OpcVairables()
         {
             nodesToRead.Add(new NodeId("/Channel/ProgramInfo/selectedWorkPProg[u1,1]", 2).ToString());
