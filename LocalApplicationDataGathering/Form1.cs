@@ -55,9 +55,6 @@ namespace LocalApplicationDataGathering
         {
             InitializeComponent();
 
-            TimeCounter counter = new TimeCounter();
-            this.Startcounting();
-
             if (OpcUastartup.Instance.GetStatus() == true)
             {
 
@@ -65,9 +62,14 @@ namespace LocalApplicationDataGathering
                 status_textbox.Text = opcVariables.getRecordFromResults(0);
             }
             else if (OpcUastartup.Instance.GetStatus() == false)
-             {
+            {
                 status_textbox.Text = "dfgdgdg";
-              }
+            }
+
+            TimeCounter counter = new TimeCounter();
+            this.Startcounting();
+
+         
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -322,7 +324,7 @@ namespace LocalApplicationDataGathering
             rdr.Close();
 
 
-            string temp = "IB2";
+            string temp = "IB7";
 
             if (list_of_var_indatabase.Contains(temp))
             {
@@ -347,7 +349,7 @@ namespace LocalApplicationDataGathering
 
         private void pushElemToDatabase(string temp, PostgresConnection databaseConnection)
         {
-            NpgsqlCommand cmd = new NpgsqlCommand("insert into plc_data_variables (plc_var ,plc_var_meaning ,created_on ,last_changed_date ,status ,plc_var_path ,value ,last_changed_time ) values ('"+ temp + "','"+ temp + "','2020-07-21','"+ datetime + "',true,'/plc/','true','15:20:20') ", databaseConnection.connection());
+            NpgsqlCommand cmd = new NpgsqlCommand("insert into plc_data_variables (plc_var ,plc_var_meaning ,created_on ,last_changed_date ,status ,plc_var_path ,value ,last_changed_time ) values ('"+ temp + "','"+ temp + "','2020-07-21','"+ datetime + "',true,'/Plc/','true','15:20:20') ", databaseConnection.connection());
             NpgsqlDataReader rdr = cmd.ExecuteReader();
             rdr.Close();
         }
