@@ -156,6 +156,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="LogWriter\LogWriter.cs" />
+    <Compile Include="Opc\OpcVairables.cs" />
     <Compile Include="Parameters_DataGathering_form.cs">
       <SubType>Form</SubType>
     </Compile>

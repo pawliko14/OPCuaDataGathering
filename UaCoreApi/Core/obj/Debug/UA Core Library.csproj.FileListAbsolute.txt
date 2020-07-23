@@ -22,3 +22,9 @@ C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debu
 C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.dll
 C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.pdb
 C:\Users\el08\source\repos\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\UA Core Library.csprojAssemblyReference.cache
+C:\VS_projects\LocalApplicationDataGathering\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.dll
+C:\VS_projects\LocalApplicationDataGathering\UaCoreApi\Core\bin\Debug\Opc.Ua.Core.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\UA Core Library.csprojAssemblyReference.cache
+C:\VS_projects\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\UA Core Library.csproj.CoreCompileInputs.cache
+C:\VS_projects\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.dll
+C:\VS_projects\LocalApplicationDataGathering\UaCoreApi\Core\obj\Debug\Opc.Ua.Core.pdb

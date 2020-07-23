@@ -11,14 +11,24 @@ using System.Windows.Forms;
 using LocalApplicationDataGathering.Pinging;
 using LocalApplicationDataGathering.App_start;
 using Npgsql;
+using System.Threading;
+using LocalApplicationDataGathering.Opc;
 
 namespace LocalApplicationDataGathering
 {
     public partial class Form1 : Form
     {
         //  private bool disconnected = false;
-      private bool _disconnected;
-      public bool disconneced
+        private bool _disconnected;
+        private static System.Timers.Timer DummyTimer = null;
+        private int counter = 300; // changes only to tests
+        private bool database_connection = false;
+        private OpcVairables opcVariables;
+
+        // TEMPORARY TO DELETE LATER 
+        private string value_to_READ = null;
+
+        public  bool  disconneced
         {
             get { return _disconnected;  }
             set
@@ -33,15 +43,7 @@ namespace LocalApplicationDataGathering
                 }
             }
         }
-        private System.Windows.Forms.Timer timer1;
-        private int counter = 300; // changes only to tests
-
-        private bool database_connection = false;
-
-        // TEMPORARY TO DELETE LATER 
-        private string value_to_READ = null;
-
-
+ 
         public TextBox GetTextbox()
         {
                return textBox1;
@@ -55,20 +57,9 @@ namespace LocalApplicationDataGathering
 
             if (OpcUastartup.Instance.GetStatus() == true)
             {
-                
-                    List<string> nodesToRead = new List<string>();
-                    List<string> results = new List<string>();
 
-                    nodesToRead.Add(new NodeId("/Channel/ProgramInfo/selectedWorkPProg[u1,1]", 2).ToString());
-
-                    results = OpcUastartup.Instance.get_m_server().ReadValues(nodesToRead);
-
-                
-                   status_textbox.Text = results[0];
-
-                value_to_READ = results[0];
-
-
+                opcVariables = new OpcVairables();
+                status_textbox.Text = opcVariables.getRecordFromResults(0);
             }
             else if (OpcUastartup.Instance.GetStatus() == false)
              {
@@ -97,17 +88,7 @@ namespace LocalApplicationDataGathering
             {
                 if (OpcUastartup.Instance.CheckServerConnection() == true)
                 {
-                    List<string> nodesToRead = new List<string>();
-                    List<string> results = new List<string>();
-
-                    nodesToRead.Add(new NodeId("/Channel/ProgramInfo/selectedWorkPProg[u1,1]", 2).ToString());
-
-                    results = OpcUastartup.Instance.get_m_server().ReadValues(nodesToRead);
-
-
-                    status_textbox.Text = results[0];
-
-
+ 
                 }
                 else
                 {
@@ -150,15 +131,19 @@ namespace LocalApplicationDataGathering
 
         private  void Startcounting()
         {
-            timer1 = new System.Windows.Forms.Timer();
-            timer1.Tick += new EventHandler(timer1_Tick);
-            timer1.Interval = 1000; // 1 second
-            timer1.Start();
+            DummyTimer = new System.Timers.Timer(1000 * 1); // 5 sec interval
+            DummyTimer.Enabled = true;
+            DummyTimer.Elapsed += new System.Timers.ElapsedEventHandler(timer1_Tick);
+            DummyTimer.AutoReset = true;
+
+            DummyTimer.Start();
             textBox1.Text = counter.ToString();
 
         }
 
         private bool bitWystawiony = false;
+
+
         private  void timer1_Tick(object sender, EventArgs e)
         {
           
@@ -172,11 +157,23 @@ namespace LocalApplicationDataGathering
             }
 
             ComplexPing.Ping_function();
-            Ping_status.Text = ComplexPing.getPingStatus().ToString();
+         //   Ping_status.Text = ComplexPing.getPingStatus().ToString();
 
-            bool status = OpcUastartup.Instance.GetStatus();
-            Console.WriteLine("current state of OPC connection" + status);
-            connection_status_textbox.Text = status.ToString();
+            Ping_status.Invoke(new Action(delegate ()
+            {
+                Ping_status.Text = ComplexPing.getPingStatus().ToString();
+            }));
+
+                    bool status = OpcUastartup.Instance.GetStatus();
+                    Console.WriteLine("current state of OPC connection" + status);
+
+
+
+            
+            connection_status_textbox.Invoke(new Action(delegate ()
+            {
+                connection_status_textbox.Text = status.ToString();
+            }));
 
 
             // if opc is commented or its was not started pararerly with whole application
@@ -185,6 +182,7 @@ namespace LocalApplicationDataGathering
                 if (ComplexPing.getPingStatus() == false && disconneced == false)
                 {
                     disconneced = true;
+
                 }
                 else if (ComplexPing.getPingStatus() == true && disconneced == true && bitWystawiony == false && OpcUastartup.Instance.GetStatus() == false)
                 {
@@ -199,8 +197,17 @@ namespace LocalApplicationDataGathering
                     // check opc statusm, if false try to reconnect
                 }
 
+
             }
-            textBox1.Text = counter.ToString();
+            GatherData_save_to_databse();
+
+           
+
+
+            textBox1.Invoke(new Action(delegate ()
+            {
+                textBox1.Text = counter.ToString();
+            }));
         }
 
         private void Ping_button_Click(object sender, EventArgs e)
@@ -245,42 +252,61 @@ namespace LocalApplicationDataGathering
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void GatherData_save_to_databse()
         {
-
-
             PostgresConnection databaseConnection = new PostgresConnection();
 
             databaseConnection.connection().Open();
 
             NpgsqlCommand cmd = new NpgsqlCommand("SELECT * FROM users", databaseConnection.connection());
-              NpgsqlDataReader dr = cmd.ExecuteReader();
+            NpgsqlDataReader dr = cmd.ExecuteReader();
 
-                if (dr.Read())
-                {
-                    database_connection = true;
-                    Console.WriteLine("connection established");
+            if (dr.Read())
+            {
+                database_connection = true;
+                Console.WriteLine("connection established");
 
-                    // temporary to delete, pushing example data to sql :
+                // temporary to delete, pushing example data to sql :
 
-                   
 
-                }
-                if (database_connection == false)
-                {
-                    Console.WriteLine("data does not exist");
-                }
-                else
-                {
-                    Console.WriteLine("problem with connections");
-                }
 
-                dr.Close();
+            }
+            if (database_connection == false)
+            {
+                Console.WriteLine("data does not exist");
+            }
+            else
+            {
+                Console.WriteLine("problem with connections");
+            }
 
-                NpgsqlCommand command = new NpgsqlCommand("insert into nc_data (nc_var ,nc_value, measure_time, measure_date, status) values ('selectedWorkPProg[u1,1]','" + value_to_READ + "', '12:30:54', '2020-07-10', true)", databaseConnection.connection());
-                NpgsqlDataReader datareader = command.ExecuteReader();
+            dr.Close();
 
-            databaseConnection.connection().Close();
+            NpgsqlCommand command = new NpgsqlCommand("insert into nc_data (nc_var ,nc_value, measure_time, measure_date, status) values ('selectedWorkPProg[u1,1]','" + value_to_READ + "', '12:30:54', '2020-07-10', true)", databaseConnection.connection());
+            NpgsqlDataReader datareader = command.ExecuteReader();
+            datareader.Close();
+
+            DateTime now = DateTime.Now;
+            string datetime = DateTime.Today.ToString();
+
+
+         
+
+            foreach (var pair in opcVariables.getMap())
+            {
+                command = new NpgsqlCommand("update plc_data_variables set last_changed_time = '" + now.TimeOfDay + "', value = '" + pair.Value + "', last_changed_date = '" + datetime + "' where plc_var  = '" + pair.Key + "'", databaseConnection.connection());
+                datareader = command.ExecuteReader();
+                datareader.Close();
+            }
+                databaseConnection.connection().Close();
+        }
+
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            // empty, previously save to database, migrated to another function
+          
 
         }
 

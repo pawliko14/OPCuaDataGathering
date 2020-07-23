@@ -43,3 +43,12 @@ C:\Users\el08\source\repos\LocalApplicationDataGathering\UaClientApi\obj\Debug\U
 C:\Users\el08\source\repos\LocalApplicationDataGathering\UaClientApi\obj\Debug\UA Client Library.csproj.CopyComplete
 C:\Users\el08\source\repos\LocalApplicationDataGathering\UaClientApi\obj\Debug\Opc.Ua.Client.dll
 C:\Users\el08\source\repos\LocalApplicationDataGathering\UaClientApi\obj\Debug\Opc.Ua.Client.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Debug\Opc.Ua.Client.dll
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Debug\Opc.Ua.Client.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Debug\Opc.Ua.Core.dll
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Debug\Opc.Ua.Core.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Debug\UA Client Library.csprojAssemblyReference.cache
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Debug\UA Client Library.csproj.CoreCompileInputs.cache
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Debug\UA Client Library.csproj.CopyComplete
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Debug\Opc.Ua.Client.dll
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Debug\Opc.Ua.Client.pdb

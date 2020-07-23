@@ -12,10 +12,13 @@ namespace LocalApplicationDataGathering
 {
     public sealed class OpcUastartup
     {
+        private List<string> plc_variables;
 
         //singleton
         private OpcUastartup()
         {
+            plc_variables = new List<string>();
+
 
         }
         private static OpcUastartup instance = null;
@@ -164,10 +167,15 @@ namespace LocalApplicationDataGathering
                 return;
             }
 
-
+        
 
          
         }
+        public void DataGatherer()
+        {
+
+        }
+
 
         private  void m_Server_CertificateEvent(CertificateValidator validator, CertificateValidationEventArgs e)
         {
