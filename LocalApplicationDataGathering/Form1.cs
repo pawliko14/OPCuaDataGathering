@@ -13,6 +13,7 @@ using LocalApplicationDataGathering.App_start;
 using Npgsql;
 using System.Threading;
 using LocalApplicationDataGathering.Opc;
+using System.Data.SqlClient;
 
 namespace LocalApplicationDataGathering
 {
@@ -28,6 +29,9 @@ namespace LocalApplicationDataGathering
         private DateTime now = DateTime.Now;
         private string datetime = DateTime.Today.ToString();
 
+        private PostgresConnection databaseConnection; //= new PostgresConnection();
+
+         
         // TEMPORARY TO DELETE LATER 
         private string value_to_READ = null;
 
@@ -53,6 +57,8 @@ namespace LocalApplicationDataGathering
         }
         public Form1()
         {
+          
+
             InitializeComponent();
 
             if (OpcUastartup.Instance.GetStatus() == true)
@@ -87,42 +93,6 @@ namespace LocalApplicationDataGathering
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (ComplexPing.getPingStatus() == true)
-            {
-                if (OpcUastartup.Instance.CheckServerConnection() == true)
-                {
- 
-                }
-                else
-                {
-                    Console.WriteLine("nie mozna odczytac1");
-                }
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            if (ComplexPing.getPingStatus() == true)
-            {
-                if (OpcUastartup.Instance.CheckServerConnection() == true)
-                {
-                    List<string> nodesToRead = new List<string>();
-                    List<string> results = new List<string>();
-
-                    nodesToRead.Add(new NodeId("/Plc/IB0", 2).ToString());
-
-                    results = OpcUastartup.Instance.get_m_server().ReadValues(nodesToRead);
-
-                    status_textbox.Text = results[0];
-                }
-                else
-                {
-                    Console.WriteLine("Cannot be readed");
-                }
-            }
-        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -205,6 +175,7 @@ namespace LocalApplicationDataGathering
 
 
             }
+            opcVariables.pushMap_to_database();
             GatherData_save_to_databse();
 
            
@@ -260,47 +231,44 @@ namespace LocalApplicationDataGathering
 
         private void GatherData_save_to_databse()
         {
-            PostgresConnection databaseConnection = new PostgresConnection();
+            databaseConnection = new PostgresConnection();
 
             databaseConnection.connection().Open();
 
-            NpgsqlCommand cmd = new NpgsqlCommand("SELECT * FROM users", databaseConnection.connection());
-            NpgsqlDataReader dr = cmd.ExecuteReader();
+            // need to create lambda expression instead of foreach!
+            // foreach (var pair in opcVariables.getMap())
 
-            if (dr.Read())
+            foreach (KeyValuePair<string,string> pair in opcVariables.getMap())
             {
-                database_connection = true;
-                Console.WriteLine("connection established");
 
-                // temporary to delete, pushing example data to sql :
+                // working, looking for alternatives to do prepare statement
+                //NpgsqlCommand command = new NpgsqlCommand("update plc_data_variables set last_changed_time = '" + now.TimeOfDay + "', value = '" + pair.Value + "', last_changed_date = '" + datetime + "' where plc_var  = '" + pair.Key + "'", databaseConnection.connection());
+                //NpgsqlDataReader datareader = command.ExecuteReader();
+                //datareader.Close();
 
+                var cmd = new NpgsqlCommand("update plc_data_variables set last_changed_time =:p1, value =:p2, last_changed_date =:p3 where plc_var  =:p4 ", databaseConnection.connection());
+                
+                   // cmd.Parameters.AddWithValue("p1", (now.TimeOfDay).ToString());
+                     cmd.Parameters.Add(new NpgsqlParameter("p1", NpgsqlTypes.NpgsqlDbType.Text));
+                    cmd.Parameters.Add(new NpgsqlParameter("p2", NpgsqlTypes.NpgsqlDbType.Text));
+                    cmd.Parameters.Add(new NpgsqlParameter("p3", NpgsqlTypes.NpgsqlDbType.Text));
+                    cmd.Parameters.Add(new NpgsqlParameter("p4", NpgsqlTypes.NpgsqlDbType.Text));
 
+                cmd.Parameters[0].Value = (now.TimeOfDay).ToString();
+                cmd.Parameters[1].Value = pair.Value;
+                cmd.Parameters[2].Value = datetime.ToString();
+                cmd.Parameters[3].Value = pair.Key;
+
+               cmd.Prepare();
+               cmd.ExecuteNonQuery();
+                
+
+            
+                    
 
             }
-            if (database_connection == false)
-            {
-                Console.WriteLine("data does not exist");
-            }
-            else
-            {
-                Console.WriteLine("problem with connections");
-            }
 
-            dr.Close();
-
-            NpgsqlCommand command = new NpgsqlCommand("insert into nc_data (nc_var ,nc_value, measure_time, measure_date, status) values ('selectedWorkPProg[u1,1]','" + value_to_READ + "', '12:30:54', '2020-07-10', true)", databaseConnection.connection());
-            NpgsqlDataReader datareader = command.ExecuteReader();
-            datareader.Close();
-
-          
-
-            foreach (var pair in opcVariables.getMap())
-            {
-                command = new NpgsqlCommand("update plc_data_variables set last_changed_time = '" + now.TimeOfDay + "', value = '" + pair.Value + "', last_changed_date = '" + datetime + "' where plc_var  = '" + pair.Key + "'", databaseConnection.connection());
-                datareader = command.ExecuteReader();
-                datareader.Close();
-            }
-                databaseConnection.connection().Close();
+            databaseConnection.connection().Close();
         }
 
 
@@ -316,6 +284,7 @@ namespace LocalApplicationDataGathering
             NpgsqlCommand cmd = new NpgsqlCommand("SELECT plc_var FROM plc_data_variables pdv order by id_var ", databaseConnection.connection());
             NpgsqlDataReader rdr = cmd.ExecuteReader();
 
+
             while (rdr.Read())
             {
                 string value = rdr.GetString(0);
@@ -324,7 +293,9 @@ namespace LocalApplicationDataGathering
             rdr.Close();
 
 
-            string temp = "IB7";
+            string temp = "MB5";
+
+            
 
             if (list_of_var_indatabase.Contains(temp))
             {
@@ -343,9 +314,25 @@ namespace LocalApplicationDataGathering
                 MessageBox.Show(opcVariables.getMap().Keys.Last() + ", " + opcVariables.getMap().Values.Last());
 
 
-
+                // here should be warning to create new table in database
+                //createTable_singlePlcVar(temp, databaseConnection);
             }
         }
+
+        //private void createTable_singlePlcVar(string temp, PostgresConnection databaseConnection)
+        //{
+
+        //    string sql = @"CREATE table if not exists IB7 (
+        //                    id_var serial PRIMARY KEY,
+        //                    value VARCHAR(50)  NOT NULL,
+        //                    last_date TIMESTAMP
+        //                ); ";
+
+        //    NpgsqlCommand cmd = new NpgsqlCommand(sql,databaseConnection.connection());
+        //    NpgsqlDataReader rdr = cmd.ExecuteReader();
+        //    rdr.Close();
+
+        //}
 
         private void pushElemToDatabase(string temp, PostgresConnection databaseConnection)
         {
@@ -356,8 +343,14 @@ namespace LocalApplicationDataGathering
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-      
-            
+            List<string> testc = opcVariables.get_nodesToRead_results();
+
+            string results = string.Join(",", testc);
+
+            MessageBox.Show("Record pushed successfully" + results);
+
+
+
         }
 
         //////////////////////////////////

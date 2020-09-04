@@ -180,6 +180,9 @@
     <EmbeddedResource Include="Parameters_DataGathering_form.resx">
       <DependentUpon>Parameters_DataGathering_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Parameters_PLC_NC_form.resx">
+      <DependentUpon>Parameters_PLC_NC_form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

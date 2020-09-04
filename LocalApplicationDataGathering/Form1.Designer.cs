@@ -51,7 +51,7 @@
             this.branch1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.branch2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button3 = new System.Windows.Forms.Button();
-            this.databaseConnection = new System.Windows.Forms.Button();
+            this.databaseConnection_button = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -70,7 +70,7 @@
             // status_textbox
             // 
             this.status_textbox.Location = new System.Drawing.Point(192, 50);
-            this.status_textbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.status_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.status_textbox.Name = "status_textbox";
             this.status_textbox.Size = new System.Drawing.Size(281, 22);
             this.status_textbox.TabIndex = 1;
@@ -79,29 +79,27 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(560, 34);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 2;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(560, 91);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 3;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(893, 38);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(132, 22);
             this.textBox1.TabIndex = 4;
@@ -110,7 +108,7 @@
             // Ping_status
             // 
             this.Ping_status.Location = new System.Drawing.Point(783, 171);
-            this.Ping_status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Ping_status.Margin = new System.Windows.Forms.Padding(4);
             this.Ping_status.Name = "Ping_status";
             this.Ping_status.Size = new System.Drawing.Size(215, 22);
             this.Ping_status.TabIndex = 6;
@@ -119,7 +117,7 @@
             // connection_status_textbox
             // 
             this.connection_status_textbox.Location = new System.Drawing.Point(783, 279);
-            this.connection_status_textbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.connection_status_textbox.Margin = new System.Windows.Forms.Padding(4);
             this.connection_status_textbox.Name = "connection_status_textbox";
             this.connection_status_textbox.Size = new System.Drawing.Size(215, 22);
             this.connection_status_textbox.TabIndex = 7;
@@ -248,7 +246,7 @@
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(927, 500);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 10;
@@ -256,25 +254,25 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // databaseConnection
+            // databaseConnection_button
             // 
-            this.databaseConnection.Location = new System.Drawing.Point(439, 500);
-            this.databaseConnection.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.databaseConnection.Name = "databaseConnection";
-            this.databaseConnection.Size = new System.Drawing.Size(197, 28);
-            this.databaseConnection.TabIndex = 11;
-            this.databaseConnection.Text = "addRecordtoDatabase";
-            this.databaseConnection.UseVisualStyleBackColor = true;
-            this.databaseConnection.Click += new System.EventHandler(this.button4_Click);
+            this.databaseConnection_button.Location = new System.Drawing.Point(439, 500);
+            this.databaseConnection_button.Margin = new System.Windows.Forms.Padding(4);
+            this.databaseConnection_button.Name = "databaseConnection_button";
+            this.databaseConnection_button.Size = new System.Drawing.Size(197, 28);
+            this.databaseConnection_button.TabIndex = 11;
+            this.databaseConnection_button.Text = "addRecordtoDatabase";
+            this.databaseConnection_button.UseVisualStyleBackColor = true;
+            this.databaseConnection_button.Click += new System.EventHandler(this.button4_Click);
             // 
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(673, 500);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(149, 28);
+            this.button4.Size = new System.Drawing.Size(193, 28);
             this.button4.TabIndex = 12;
-            this.button4.Text = "push_data_to_database";
+            this.button4.Text = "Show readable variables";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
@@ -284,7 +282,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.databaseConnection);
+            this.Controls.Add(this.databaseConnection_button);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.connection_status_textbox);
@@ -296,7 +294,7 @@
             this.Controls.Add(this.label_status);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -332,7 +330,7 @@
         private System.Windows.Forms.ToolStripMenuItem branch1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem branch2ToolStripMenuItem;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button databaseConnection;
+        private System.Windows.Forms.Button databaseConnection_button;
         private System.Windows.Forms.Button button4;
     }
 }

@@ -12,12 +12,12 @@ namespace LocalApplicationDataGathering
 {
     public sealed class OpcUastartup
     {
-        private List<string> plc_variables;
+        //private List<string> plc_variables;
 
         //singleton
         private OpcUastartup()
         {
-            plc_variables = new List<string>();
+         //   plc_variables = new List<string>();
 
 
         }
@@ -85,6 +85,7 @@ namespace LocalApplicationDataGathering
             }
        
         }
+
 
         public  UAClientHelperAPI get_m_server()
         {
