@@ -7,3 +7,12 @@ C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V1
 C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaClientApi\obj\Release\UA Client Library.csproj.CopyComplete
 C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaClientApi\obj\Release\Opc.Ua.Client.dll
 C:\Users\el08\Desktop\OPCuaCode\42014088_OPC_UAClient_CODE_V12\OPC_UA_VS_CODE_V12\src\UaClientApi\obj\Release\Opc.Ua.Client.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Release\Opc.Ua.Client.dll
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Release\Opc.Ua.Client.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Release\Opc.Ua.Core.dll
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\bin\Release\Opc.Ua.Core.pdb
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Release\UA Client Library.csprojAssemblyReference.cache
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Release\UA Client Library.csproj.CoreCompileInputs.cache
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Release\UA Client Library.csproj.CopyComplete
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Release\Opc.Ua.Client.dll
+C:\VS_projects\LocalApplicationDataGathering\UaClientApi\obj\Release\Opc.Ua.Client.pdb
