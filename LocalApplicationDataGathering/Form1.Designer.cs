@@ -59,10 +59,6 @@
             this.timerBox2 = new System.Windows.Forms.TextBox();
             this.testing_add_record = new System.Windows.Forms.Button();
             this.stop_bag_gathering = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -318,50 +314,11 @@
             this.stop_bag_gathering.UseVisualStyleBackColor = true;
             this.stop_bag_gathering.Click += new System.EventHandler(this.stop_bag_gathering_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(61, 122);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
-            this.textBox1.TabIndex = 16;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(227, 332);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 17);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "MB5";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(217, 125);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 17);
-            this.label6.TabIndex = 31;
-            this.label6.Text = "actToolLength1[u1, 1] ";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(61, 332);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(132, 22);
-            this.textBox5.TabIndex = 30;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.stop_bag_gathering);
             this.Controls.Add(this.testing_add_record);
             this.Controls.Add(this.timerBox2);
@@ -421,10 +378,6 @@
         private System.Windows.Forms.TextBox timerBox2;
         private System.Windows.Forms.Button testing_add_record;
         private System.Windows.Forms.Button stop_bag_gathering;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
     }
 }
 
