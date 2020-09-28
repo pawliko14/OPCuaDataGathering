@@ -13,9 +13,9 @@ namespace LocalApplicationDataGathering.Opc
     class OpcVairables
     {
         private readonly string  table_name;
+        private readonly string table_name_historical;
 
-
-       private  List<string> nodesToRead = new List<string>();
+        private  List<string> nodesToRead = new List<string>();
        private  List<string> results = new List<string>();
 
 
@@ -104,6 +104,7 @@ namespace LocalApplicationDataGathering.Opc
         {
             table_name = tablename;
 
+            table_name_historical = rename_table_to_HISTORICAL(table_name);
 
             // empty, previously save to database, migrated to another function
             PostgresConnection databaseConnection = new PostgresConnection();
@@ -157,6 +158,50 @@ namespace LocalApplicationDataGathering.Opc
             databaseConnection.connection().Close();
         }
 
+        public void Gather_data_toHistorical_tables()
+        {
+            DateTime now = DateTime.Now;
+            string datetime = DateTime.Today.ToString();
+            DateTimeOffset thisTime;
+            thisTime = new DateTimeOffset(now, new TimeSpan(+2, 0, 0)); // wrong, in this case should be + 3 hours!!!! ( don't know why yet)
+            PostgresConnection con = new PostgresConnection();
+            con.connection().Open();
+
+            try
+            {
+
+                foreach (KeyValuePair<string, string> pair in this.getMap_plc())
+                {
+
+                    var sql = "INSERT INTO " + table_name_historical + "(variable,value,last_date, last_time) VALUES(@variable, @value,@last_date,@last_time)";
+                    NpgsqlCommand cmd = new NpgsqlCommand(sql, con.connection());
+
+                    cmd.Parameters.AddWithValue("variable", pair.Key);
+                    cmd.Parameters.AddWithValue("value", pair.Value);
+                    cmd.Parameters.AddWithValue("last_date", now.Date);
+                    cmd.Parameters.AddWithValue("last_time", thisTime);
+                    cmd.Prepare();
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+
+            }
+            con.connection().Close();
+        }
+
+
+
+        private string rename_table_to_HISTORICAL(string previousName)
+        {
+            string[] splitted = previousName.Split('_');
+            splitted[1] = "_historical";
+
+            return splitted[0] + splitted[1];
+        }
 
 
         internal void update_counter_database(int value)

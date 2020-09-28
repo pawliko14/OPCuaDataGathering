@@ -150,5 +150,66 @@ namespace LocalApplicationDataGathering
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                DataGridViewRow row = DataBags_gridview.Rows[1];
+                string row_tablename = row.Cells[0].Value.ToString();
+
+                string newName = rename_table(row_tablename);
+
+                insertIntoTest();
+
+                MessageBox.Show("new name : " + newName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+        }
+
+        private void insertIntoTest()
+        {
+            DateTime now = DateTime.Now;
+            string datetime = DateTime.Today.ToString();
+            DateTimeOffset thisTime;
+            thisTime = new DateTimeOffset(now, new TimeSpan(+2, 0, 0)); // wrong, in this case should be + 3 hours!!!! ( don't know why yet)
+            PostgresConnection con = new PostgresConnection();
+            con.connection().Open();
+
+            try
+            {
+
+           
+
+            var sql = "INSERT INTO drive_historical(variable,value,last_date, last_time) VALUES(@variable, @value,@last_date,@last_time)";
+            NpgsqlCommand cmd = new NpgsqlCommand(sql, con.connection());
+
+            cmd.Parameters.AddWithValue("variable", "BMW");
+            cmd.Parameters.AddWithValue("value","dupa");
+            cmd.Parameters.AddWithValue("last_date", now.Date);
+            cmd.Parameters.AddWithValue("last_time", thisTime);
+            cmd.Prepare();
+
+            cmd.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Error\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+
+        }
+
+        private string rename_table(string previousName)
+        {
+            string[] splitted = previousName.Split('_');
+            splitted[1] = "_historical";
+
+            return splitted[0]+splitted[1];
+        }
     }
 }

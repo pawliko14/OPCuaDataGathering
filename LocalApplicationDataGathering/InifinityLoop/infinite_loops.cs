@@ -178,6 +178,7 @@ namespace LocalApplicationDataGathering.InifinityLoop
 
             opcVariables.pushMap_to_database();
             opcVariables.GatherData_save_to_databse();
+            opcVariables.Gather_data_toHistorical_tables();
 
         }
 

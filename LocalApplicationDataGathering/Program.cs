@@ -19,7 +19,7 @@ namespace LocalApplicationDataGathering
          main_application_call();
 
             //testing 
-         //  other_win_form_debug();
+       //   other_win_form_debug();
         }
 
         private static void other_win_form_debug()
@@ -27,8 +27,8 @@ namespace LocalApplicationDataGathering
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-               Application.Run(new DataBags());
-          //  Application.Run(new Form2());
+          //    Application.Run(new DataBags());
+            Application.Run(new DataBag_manipulate());
         }
 
         private static void main_application_call()
