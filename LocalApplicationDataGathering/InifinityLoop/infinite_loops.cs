@@ -98,13 +98,12 @@ namespace LocalApplicationDataGathering.InifinityLoop
         public void initizalizer()
         {
             if (OpcUastartup.Instance.GetStatus() == true)
-            {
-
                 opcVariables = new OpcVairables(table_name);
-            }
 
-            TimeCounter counter = new TimeCounter();
-            this.Startcounting();
+            
+
+            //TimeCounter counter = new TimeCounter();
+            //  this.Startcounting();
         }
 
 
@@ -119,67 +118,67 @@ namespace LocalApplicationDataGathering.InifinityLoop
 
         /////////////////////// TIMER
 
-        private void Startcounting()
-        {
-            this.DummyTimer = new System.Timers.Timer(counter * 1); // 5 sec interval
-            this.DummyTimer.Enabled = true;
-            this.DummyTimer.Elapsed += new System.Timers.ElapsedEventHandler(timer1_Tick);
-            this.DummyTimer.AutoReset = true;
+        //private void Startcounting()
+        //{
+        //    this.DummyTimer = new System.Timers.Timer(counter * 1); // 5 sec interval
+        //    this.DummyTimer.Enabled = true;
+        //    this.DummyTimer.Elapsed += new System.Timers.ElapsedEventHandler(timer1_Tick);
+        //    this.DummyTimer.AutoReset = true;
 
-            this.DummyTimer.Start();
+        //    this.DummyTimer.Start();
 
-        }
+        //}
 
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            now = DateTime.Now;
-            datetime = DateTime.Today.ToString();
+        //private void timer1_Tick(object sender, EventArgs e)
+        //{
+        //    now = DateTime.Now;
+        //    datetime = DateTime.Today.ToString();
 
-            this.counter--;
-            if (this.counter == 0)
-            {
-                this.counter = 10;
-            }
+        //    this.counter--;
+        //    if (this.counter == 0)
+        //    {
+        //        this.counter = 10;
+        //    }
 
-            ComplexPing.Ping_function();
-             ping_status = ComplexPing.getPingStatus().ToString();
+        //    ComplexPing.Ping_function();
+        //     ping_status = ComplexPing.getPingStatus().ToString();
 
      
 
-            bool status = OpcUastartup.Instance.GetStatus();
-            Console.WriteLine("current state of OPC connection" + status + " timer tick : " + this.counter.ToString());
+        //    bool status = OpcUastartup.Instance.GetStatus();
+        //    Console.WriteLine("current state of OPC connection" + status + " timer tick : " + this.counter.ToString());
 
 
 
 
-            // if opc is commented or its was not started pararerly with whole application
-            if (OpcUastartup.Instance.getServerConnection() == true)
-            {
-                if (ComplexPing.getPingStatus() == false && disconneced == false)
-                {
-                    disconneced = true;
+        //    // if opc is commented or its was not started pararerly with whole application
+        //    if (OpcUastartup.Instance.getServerConnection() == true)
+        //    {
+        //        if (ComplexPing.getPingStatus() == false && disconneced == false)
+        //        {
+        //            disconneced = true;
 
-                }
-                else if (ComplexPing.getPingStatus() == true && disconneced == true && bitWystawiony == false && OpcUastartup.Instance.GetStatus() == false)
-                {
-                    bitWystawiony = true;
-                    OpcUastartup.Instance.reconnect();
-                    Console.WriteLine("------------------------------WYSTAWIONO POLACZENIE!---------------------");
-                    bitWystawiony = false;
-                }
+        //        }
+        //        else if (ComplexPing.getPingStatus() == true && disconneced == true && bitWystawiony == false && OpcUastartup.Instance.GetStatus() == false)
+        //        {
+        //            bitWystawiony = true;
+        //            OpcUastartup.Instance.reconnect();
+        //            Console.WriteLine("------------------------------WYSTAWIONO POLACZENIE!---------------------");
+        //            bitWystawiony = false;
+        //        }
 
-                if (disconneced == true)
-                {
-                    // check opc statusm, if false try to reconnect
-                }
-            }
+        //        if (disconneced == true)
+        //        {
+        //            // check opc statusm, if false try to reconnect
+        //        }
+        //    }
 
 
-            opcVariables.pushMap_to_database();
-            opcVariables.GatherData_save_to_databse();
+        //    opcVariables.pushMap_to_database();
+        //    opcVariables.GatherData_save_to_databse();
 
-        }
+        //}
 
         internal void stop_working()
         {

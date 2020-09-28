@@ -44,7 +44,7 @@ namespace LocalApplicationDataGathering
             this.Startcounting();
 
 
-            this.start_testing_SUBSCRYPTION();
+       //     this.start_testing_SUBSCRYPTION();
 
         //    timerBox.Text = infloop.getCounter().ToString();
         //    timerBox2.Text = inf_loop_2.getCounter().ToString();
@@ -198,7 +198,7 @@ namespace LocalApplicationDataGathering
                 {
                     // Get the according item
                     textBox5.Text = notification.Value.WrappedValue.ToString();
-             //       this.GatherData_save_to_databse(notification.Value.WrappedValue.ToString());
+                    this.GatherData_save_to_databse(notification.Value.WrappedValue.ToString());
 
                 }
                 else if (monitoredItem.DisplayName == "item2")
