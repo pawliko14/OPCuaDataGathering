@@ -12,10 +12,13 @@ namespace LocalApplicationDataGathering
 {
     public sealed class OpcUastartup
     {
+        //private List<string> plc_variables;
 
         //singleton
         private OpcUastartup()
         {
+         //   plc_variables = new List<string>();
+
 
         }
         private static OpcUastartup instance = null;
@@ -31,11 +34,63 @@ namespace LocalApplicationDataGathering
             }
         }
         //
-
+        private UInt16 m_NameSpaceIndex = 0;
         private  UAClientHelperAPI m_Server = null;
-        private  Subscription m_Subscription;
-        private  Subscription m_SubscriptionBlock;
-        private  UInt16 m_NameSpaceIndex = 0;
+
+
+        ////////////////////////////////////////
+
+        private Subscription m_Subscription;
+        private  Subscription m_Subscription_2;
+       
+
+        public Subscription get_m_Subscryption()
+        {
+            return m_Subscription;
+        }
+
+        public void set_Subscryption(Subscription s)
+        {
+            m_Subscription = s;
+        }
+
+        public Subscription get_m_Subscryption_2()
+        {
+            return m_Subscription_2;
+        }
+
+        public void set_Subscryption_2(Subscription s)
+        {
+            m_Subscription_2 = s;
+        }
+
+        ////////////////////////////////////////
+
+
+        //    private string opcTimeout = null;
+        public double getOpcTimeout()
+        {
+            return m_Server.Session.SessionTimeout;
+        }
+        public ConfiguredEndpoint GetConfigured()
+        {
+            return m_Server.Session.ConfiguredEndpoint;
+        }
+
+        public string getSessionName()
+        {
+            return m_Server.Session.SessionName;
+        }
+
+        public object getSessionSubscryptionCount()
+        {
+            return m_Server.Session.SubscriptionCount;
+        }
+
+        public object getSession()
+        {
+            return m_Server.Session.Subscriptions;
+        }
 
         private  bool status;
 
@@ -83,6 +138,7 @@ namespace LocalApplicationDataGathering
        
         }
 
+
         public  UAClientHelperAPI get_m_server()
         {
             try
@@ -114,7 +170,11 @@ namespace LocalApplicationDataGathering
         {
             try
             {
-                m_Server.Connect("opc.tcp://192.168.90.39:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
+                // bn25 - 192.168.90.39:4840
+                //        m_Server.Connect("opc.tcp://192.168.90.39:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
+                m_Server.Connect("opc.tcp://192.168.90.86:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
+
+
                 status = true;
 
                 List<string> nodesToRead = new List<string>();
@@ -122,6 +182,8 @@ namespace LocalApplicationDataGathering
             }
             catch
             {
+                
+
                 Console.WriteLine("Wrong connections data, check opc address and credentials");
                 status = false;
                 return;
@@ -149,25 +211,14 @@ namespace LocalApplicationDataGathering
             m_Server = new UAClientHelperAPI();
             m_Server.CertificateValidationNotification += new CertificateValidationEventHandler(m_Server_CertificateEvent);
 
-            try
-            {
-                m_Server.Connect("opc.tcp://192.168.90.39:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
-                status = true;
+            reconnect();
 
-                List<string> nodesToRead = new List<string>();
-                nodesToRead.Add("ns=0;i=" + Variables.Server_NamespaceArray.ToString());
-            }
-            catch
-            {
-                Console.WriteLine("Wrong connections data, check opc address and credentials");
-                status = false;
-                return;
-            }
-
-
-
-         
         }
+        public void DataGatherer()
+        {
+
+        }
+
 
         private  void m_Server_CertificateEvent(CertificateValidator validator, CertificateValidationEventArgs e)
         {

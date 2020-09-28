@@ -28,8 +28,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using Opc.Ua;
 using Opc.Ua.Client;
-
-
+using System.Windows.Forms;
 
 namespace Siemens.UAClientHelper
 {
@@ -181,7 +180,7 @@ namespace Siemens.UAClientHelper
                     Endpoint,
                     true,
                     "MySession",
-                    60000,
+                    600000,
                     UserIdentity,
                     null
                     );
@@ -605,6 +604,42 @@ namespace Siemens.UAClientHelper
             }
         }
 
+
+        public bool CheckIfValueIsReadable(String nodeIdString)
+        {
+            List<NodeId> nodeIds = new List<NodeId>();
+            List<Type> types = new List<Type>();
+            List<object> values = new List<object>();
+            List<ServiceResult> serviceResults = new List<ServiceResult>();
+
+            nodeIds.Add(new NodeId(nodeIdString));
+            types.Add(null);
+
+            try
+            {
+                //Read the dataValues
+                mSession.ReadValues(nodeIds, types, out values, out serviceResults);
+                //check ServiceResults to 
+                foreach (ServiceResult svResult in serviceResults)
+                {
+                    if (svResult.ToString() != "Good")
+                    {
+                        Exception e = new Exception(svResult.ToString());
+
+                        MessageBox.Show("This record : " + nodeIdString + " cannot be added to database!");
+                        return false;
+                    }
+                }
+                return true;
+            }
+            catch 
+            {
+                MessageBox.Show("Unexpected error, variable : "+ nodeIdString + " cannot be added to database");
+                return false;
+            }
+
+        }
+
         /// <summary>Reads values from node Ids</summary>
         /// <param name="nodeIdStrings">The node Ids as strings</param>
         /// <returns>The read values as strings</returns>
@@ -632,6 +667,7 @@ namespace Siemens.UAClientHelper
                     if (svResult.ToString() != "Good")
                     {
                         Exception e = new Exception(svResult.ToString());
+
                         throw e;
                     }
                 }
@@ -726,9 +762,14 @@ namespace Siemens.UAClientHelper
             }
             catch (Exception e)
             {
-                
+
                 //handle Exception here
+                //  
+               
+
+
                 throw e;
+               
             }
         }
 
