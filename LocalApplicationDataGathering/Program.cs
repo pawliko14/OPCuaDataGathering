@@ -15,8 +15,24 @@ namespace LocalApplicationDataGathering
         [STAThread]
         static void Main()
         {
+            //general main start
+         main_application_call();
 
+            //testing 
+         //  other_win_form_debug();
+        }
 
+        private static void other_win_form_debug()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
+               Application.Run(new DataBags());
+          //  Application.Run(new Form2());
+        }
+
+        private static void main_application_call()
+        {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -27,7 +43,7 @@ namespace LocalApplicationDataGathering
             writer = new StreamWriter(outstream);
             Console.SetOut(writer);
 
-           OpcUastartup.Instance.OPC();
+            OpcUastartup.Instance.OPC();
 
             Application.Run(new Form1());
         }

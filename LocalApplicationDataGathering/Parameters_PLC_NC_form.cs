@@ -18,7 +18,7 @@ namespace LocalApplicationDataGathering
 {
     public partial class Parameters_PLC_NC_form : Form
     {
-       private OpcVairables opcvar = new OpcVairables();
+       private OpcVairables opcvar = new OpcVairables("testowy");
 
         public Parameters_PLC_NC_form()
         {

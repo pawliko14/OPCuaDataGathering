@@ -180,7 +180,7 @@ namespace Siemens.UAClientHelper
                     Endpoint,
                     true,
                     "MySession",
-                    60000,
+                    600000,
                     UserIdentity,
                     null
                     );
@@ -765,6 +765,8 @@ namespace Siemens.UAClientHelper
 
                 //handle Exception here
                 //  
+               
+
 
                 throw e;
                
