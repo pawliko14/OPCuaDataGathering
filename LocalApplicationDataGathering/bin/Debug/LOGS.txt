@@ -1,472 +1,477 @@
 Address: 192.168.90.39
-RoundTrip time: 26
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9999
 Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9999
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9999
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9999
-Address: 192.168.90.39
-RoundTrip time: 18
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9998
 Address: 192.168.90.39
-RoundTrip time: 27
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9998
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9998
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9998
-Address: 192.168.90.39
-RoundTrip time: 23
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9997
 Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9997
-Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9997
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9997
-Address: 192.168.90.39
-RoundTrip time: 22
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9996
 Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9996
-Address: 192.168.90.39
-RoundTrip time: 18
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9996
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9996
-Address: 192.168.90.39
-RoundTrip time: 26
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9995
 Address: 192.168.90.39
-RoundTrip time: 26
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9995
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9995
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9995
-Address: 192.168.90.39
-RoundTrip time: 26
+RoundTrip time: 5
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9994
 Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 26
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 21
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9993
 Address: 192.168.90.39
-RoundTrip time: 36
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9993
-Address: 192.1ent state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 24
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9994
-Address: 192.168.90.39
-RoundTrip time: 41
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9993
-Address: 192.168.90.39
-RoundTrip time: 23
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9993
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9993
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9993
-Address: 192.168.90.39
-RoundTrip time: 18
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9993
-Address: 192.168.90.39
-RoundTrip time: 27
+RoundTrip time: 4
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9992
 Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9992
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9992
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9992
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9992
-Address: 192.168.90.39
-RoundTrip time: 24
+RoundTrip time: 1
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9991
 Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9991
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9991
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9991
-Address: 192.168.90.39
-RoundTrip time: 23
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9991
-Address: 192.168.90.39
-RoundTrip time: 21
+RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9990
 Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9990
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9990
-Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9990
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9990
-Address: 192.168.90.39
-RoundTrip time: 26
+RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9989
 Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9989
-Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9989
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9989
-TimedOut
-current state of OPC connectionTrue timer tick : 9989
-Address: 192.168.90.39
-RoundTrip time: 22
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9988
 Address: 192.168.90.39
-RoundTrip time: 23
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9988
-Address: 192.168.90.39
-RoundTrip time: 18
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9988
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9988
-Address: 192.168.90.39
-RoundTrip time: 23
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9988
-Address: 192.168.90.39
-RoundTrip time: 21
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9987
 Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9987
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9987
-Address: 192.168.90.39
-RoundTrip time: 25
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9987
-Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9987
-Address: 192.168.90.39
-RoundTrip time: 22
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9986
 Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9986
-Address: 192.168.90.39
-RoundTrip time: 19
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9986
-Address: 192.168.90.39
-RoundTrip time: 20
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9986
-Address: 192.168.90.39
-RoundTrip time: 18
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9986
-Address: 192.168.90.39
-RoundTrip time: 24
+RoundTrip time: 3
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9985
 Address: 192.168.90.39
-RoundTrip time: 23
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9985
-Address: 192.168.90.39
-RoundTrip time: 21
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9985
-Address: 192.168.90.39
-RoundTrip time: 27
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9985
-Address: 192.168.90.39
-RoundTrip time: 22
-Time to live: 63
-Don't fragment: False
-Buffer size: 32
-current state of OPC connectionTrue timer tick : 9985
-Address: 192.168.90.39
-RoundTrip time: 20
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9984
 Address: 192.168.90.39
-RoundTrip time: 21
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
-current state of OPC connectionTrue timer tick : 9984
+current state of OPC connectionTrue timer tick : 9983
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9982
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9981
+Address: 192.168.90.39
+RoundTrip time: 7
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9980
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9979
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9978
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9977
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9976
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9975
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9974
+Address: 192.168.90.39
+RoundTrip time: 6
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9973
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9972
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9971
+Address: 192.168.90.39
+RoundTrip time: 7
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9970
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9969
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9968
+Address: 192.168.90.39
+RoundTrip time: 8
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9967
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9966
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9965
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9964
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9963
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9962
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9961
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9960
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9959
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9958
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9957
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9956
+Address: 192.168.90.39
+RoundTrip time: 11
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9955
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9954
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9953
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9952
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9951
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9950
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9949
+Address: 192.168.90.39
+RoundTrip time: 12
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9948
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: F False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9986
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9986
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9986
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9986
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9985
 Address: 192.168.90.39
 RoundTrip time: 19
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
-current state of OPC connectionTrue timer tick : 9984
+current state of OPC connectionTrue timer tick : 9985
 Address: 192.168.90.39
-RoundTrip time: 32
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9985
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9985
+Address: 192.168.90.39
+RoundTrip time: 2
 Time to live: 63
 Don't fragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9984
 Address: 192.168.90.39
-RoundTrip time: 25
+RoundTrip time: 6
 Time to live: 63
 Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9984
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9984
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9984
+Address: 192.168.90.39
+RoundTrip time: 4
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9983
+Address: 192.168.90.39
+RoundTrip time: 9
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9983
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9983
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9983
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9982
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9982
+Address: 192.168.90.39
+RoundTrip time: 6
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9982
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9982
+Address: 192.168.90.39
+RoundTrip time: 9
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9981
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9981
+Address: 192.168.90.39
+RoundTrip time: 14
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9981
+Address: 192.168.90.39
+RoundTrip time: 10
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9981
+Address: 192.168.90.39
+RoundTrip time: 2
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9980
+Address: 192.168.90.39
+RoundTrip time: 3
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current state of OPC connectionTrue timer tick : 9980
+Address: 192.168.90.39
+RoundTrip time: 5
+Time to live: 63
+Don't fragment: False
+Buffer size: 32
+current statragment: False
 Buffer size: 32
 current state of OPC connectionTrue timer tick : 9984
 Address: 192.168.90.39

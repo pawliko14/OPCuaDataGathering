@@ -172,7 +172,7 @@ namespace LocalApplicationDataGathering
             {
                 // bn25 - 192.168.90.39:4840
                 //        m_Server.Connect("opc.tcp://192.168.90.39:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
-                m_Server.Connect("opc.tcp://192.168.90.39:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
+                m_Server.Connect("opc.tcp://192.168.90.86:4840", "none", MessageSecurityMode.SignAndEncrypt, true, "OpcUaClient", "12345678");
 
 
                 status = true;
